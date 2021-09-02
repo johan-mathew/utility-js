@@ -1,6 +1,6 @@
 const head = require('./head');
 
-describe('Add', () => {
+describe('Head', () => {
 
     it('Head([1,2,3])', () => {
         array = [1,2,3];
@@ -14,7 +14,7 @@ describe('Add', () => {
 
     it('Head([])', () => {
         array = [];
-        expect(head(array)).toEqual(null);
+        expect(head(array)).toEqual(undefined);
     });
 
 })
